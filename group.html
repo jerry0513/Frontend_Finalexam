@@ -6,10 +6,9 @@
         <title>Photograph</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="css/_group.css"> 
         <link rel="stylesheet" href="css/_nav.css">
         <link rel="stylesheet" href="css/_layout.css"> 
-        <link rel="stylesheet" href="css/_group.css"> 
-        <link rel="stylesheet" href="css/_hero.css">
     </head>
     <body>
         <header class="header">
@@ -18,26 +17,33 @@
                     <li class="nav-item active"><a class="logo" href="index.html">Photo</a></li>
                     <li class="nav-item"><a href="album.html">Album</a></li>
                     <li class="nav-item"><a href="group.html">Group</a></li>
+                    <li class="nav-item nav-item-user"><img src="images/album01.jpg"></li>
                 </ul>
             </nav>
         </header>
         <div class="wrap">
             <content class="content">
+                <h1>Group</h1>
                 <div class="grip">
-                    <div class="groupitem span1">
-                        <div class="addgroup"><a href="#">+Add</a></div>
-                        <img src="images/album02.jpg" class="group-avatar">
-                        <p>Forest</p>
-                    </div>
-                    <div class="groupitem span1">
-                        <div class="addgroup"><a href="#">+Add</a></div>
-                        <img src="images/album01.jpg" class="group-avatar">
-                        <p>Flower</p>
+                    <div class="grid">
+                        <a class="groupitem hover-shadow">
+                            <div class="addgroup">Add</div>
+                            <img src="images/album01.jpg" class="group-avatar">
+                            <p>Cityscape</p>
+                            <h4>50k</h4>
+                        </a>
+                        <a class="groupitem hover-shadow">
+                            <div class="addgroup">Add</div>
+                            <img src="images/album02.jpg" class="group-avatar">
+                            <p>Forest</p>
+                            <h4>100k</h4>
+                        </a>
                     </div>
                 </div>
             </content>
 
             <footer class="footer">
+                <h4>10446011 張紘銘</h4>
             </footer>
         </div>
     </body>
